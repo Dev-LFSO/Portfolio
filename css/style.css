@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto Slab';
+}
+
+header{
+    width: 100%;
+    background-color: rgb(183, 236, 255);
+    font-family: 'Nunito';
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header a{
+    color: #222124;
+    text-decoration: none;
+    display: inline-block;
+}
+
+header nav{
+    padding-right: 250px;
+}
+
+header nav ul {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+}
+
+header nav ul li {
+    margin: 0 20px;
+}
+
+main{
+    font-family: 'Roboto Slab';
+    background: linear-gradient(to top, rgb(255, 255, 255), rgb(183, 236, 255));
+}
+
+.menu-desktop li {
+    display: inline;
+    padding: 8px;
+    text-decoration: none;
+    justify-content: space-between;
+}
+
+.interface-header {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo{
+    font-size: 56px;
+    padding-left: 15px;
+}
+
+.icon-text-link {
+    text-decoration: none;
+    color: #222124;
+    display: inline-block;
+}
+
+.icon-text-link i {
+    padding-right: 8px; /* Ajuste o valor conforme necessário */
+}
+
+.btn-contato button{
+    font-size: 20px;
+    margin-right: 15px;
+    padding: 5px;
+    border-radius: 8px;
+    background-color: rgb(183, 236, 255);
+    border: 0.1cm solid #868686;
+    color: #000000;
+    cursor: pointer;
+    transition: background-color 0.1s, color 0.1s;
+    box-shadow: 0 8px 10px rgba(0, 0, 0, 0.1);
+}
+
+.btn-contato button:hover {
+    background-color: #979797;
+    color: #ffffff;
+}
+
+.topo-do-site{
+    width: 100%;
+    height: 300px;
+}
+
+.interface-main {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.intro {
+    text-align: left;
+    font-size: 32px;
+    height: fit-content;
+    width: fit-content;
+    margin-left: 80px;
+    margin-top: 80px;
+    padding: 45px;
+    border: 2px solid #000000;
+}
+
+.minha-foto {
+    text-align: center;
+}
+
+.minha-foto img {
+    width: 400px;
+    height: 400px;
+    margin-right: 300px;
+    margin-top: 100px;
+    border-radius: 40%;
+    border: 8px solid rgb(177, 208, 255);
+    transition: transform 0.1s ease-in-out;
+}
+.minha-foto img:hover {
+    transform: scale(1.05);
+}
